@@ -1,0 +1,102 @@
+.game-info__reviews{
+    width: 100%;
+    margin: 80px 0;
+}
+
+.game-info__reviews-header{
+  display:flex;
+  align-items:center;
+  gap:24px;
+}
+
+.reviews-line{
+  flex:1;
+  height:1px;
+  background:rgba(255,255,255,0.2);
+}
+
+
+.game-info__reviews-overall{
+    background-color: var(--bg-light-muted);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 40px;
+    border-radius: 0.5rem;
+}
+
+.game-info__reviews-type{
+    font: var(--text-lg-bold);
+    color: var(--primary);
+}
+
+.game-info__reviews-total{
+    font: var(--text-sm);
+    color: var(--text-muted-dm);
+}
+
+.game-info__reviews-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.game-info__reviewer{
+    display: flex;
+    border: solid 1px var(--border);
+    background-color: var(--bg-light-muted);
+}
+
+.reviewer-profile{
+    width: 150px;
+    flex-shrink: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: solid 1px var(--border);
+}
+
+.reviewer-pfp{
+    width: 40px;
+    height: 40px;
+    margin-top: 8px;
+}
+
+.reviewer-pfp img{
+    width: 100%;
+    height: 100%;
+}
+
+.reviewer-name{
+    font: var(--text-base-bold);
+}
+
+.reviewer-right{
+    padding: 20px;
+}
+
+.reviewer-opinion{
+    background-color: var(--bg-light);
+    display: flex;
+}
+
+.opnion-icon svg{
+    stroke-width: 1.5;
+    width: 36px;
+    height: 36px;
+    padding: 4px;
+    background-color: var(--primary);
+    color: var(--text-lm);
+}
+
+.reviewer-review p{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;   /* number of lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-top: 12px;
+}

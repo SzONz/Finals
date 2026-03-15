@@ -1,0 +1,76 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "title": "ULTRAKILL",
+      "image": "/images/UK.jpg",
+      "date": "Today",
+      "original": 12.27,
+      "new": 7.97
+    },
+    {
+      "id": "lop",
+      "title": "Lies Of P",
+      "date": "Today",
+      "image": "/images/lop.jpg",
+      "original": 40.13,
+      "new": 20.06
+    },
+    {
+      "id": 3,
+      "title": "Peak",
+      "image": "/images/peak.jpg",
+      "date": "5 March",
+      "original": 3.78,
+      "new": 2.35
+    },
+    {
+      "id": 4,
+      "title": "Garry's mod",
+      "image": "/images/gm.jpg", 
+      "date": "Today",
+      "original": 4.50,
+      "new": 2.20
+    },
+        {
+      "id": 5,
+      "title": "The Escapist 2",
+      "image": "/images/te.jpg",
+      "date": "6 March",
+      "original": 8.00,
+      "new": 5.85
+    },
+        {
+      "id": 6,
+      "title": "Pico park",
+      "image": "/images/pp.avif",
+      "date": "5 March",
+      "original": 2.68,
+      "new": 1.87
+    },
+    {
+      "id": 7,
+      "title": "Hell Let Loose",
+      "image": "/images/hll.jpg",
+      "date": "13 March",
+      "original": 30.00,
+      "new": 12.00
+    },
+    {
+      "id": 8,
+      "title": "Among Us",
+      "image": "/images/am.jpg",
+      "date": " 5 March",
+      "original": 2.50,
+      "new": 1.50
+    },
+    {
+      "id": 9,
+      "title": "Cast n Chill",
+      "image": "/images/cac.avif",
+      "date": "5 March",
+      "original": 8.00,
+      "new": 5.85
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "title": "Action",
+      "image": "/images/actionG.webp"
+    },
+    {
+      "id": 2,
+      "title": "Horror",
+      "image": "/images/horrorG.webp"
+    },
+    {
+      "id": 3,
+      "title": "Casual",
+      "image": "/images/casualG.webp"
+    },
+    {
+      "id": 4,
+      "title": "Story Rich",
+      "image": "/images/story_richG.webp"
+    },
+    {
+      "id": 5,
+      "title": "Survival",
+      "image": "/images/survivalG.webp"
+    },
+    {
+      "id": 6,
+      "title": "Co-Operative",
+      "image": "/images/copeG.webp"
+    },
+    {
+      "id": 7,
+      "title": "Racing",
+      "image": "/images/racingG.webp"
+    },
+    {
+      "id": 8,
+      "title": "Anime",
+      "image": "/images/animeG.webp"
+    }
+  ]
+}

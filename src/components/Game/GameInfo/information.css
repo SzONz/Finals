@@ -1,0 +1,75 @@
+.game-info{
+    margin-top: 80px ;
+    width: 100%;
+}
+
+.game-info__short-desc{
+    font: var(--text-base-bold);
+}
+
+.game-info__category{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.game-info__genre{
+    flex: 1;
+    border-right: 1px solid var(--border);
+    font: var(--text-base);
+    color: var(--text-muted-dm);
+}
+
+.game-info__featured{
+    flex: 1;
+    padding-left: 10px;
+    font: var(--text-base);
+    color: var(--text-muted-dm);    
+}
+
+.game-info__genre-container,
+.game-info__feature-container{
+    margin-top: 8px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    color: var(--text-dm);
+}
+
+.game-info__genre-container p,
+.game-info__feature-container p{
+    background-color: var(--bg-light);
+    padding: 4px 10px;
+    border-radius: 0.25rem;
+}
+
+.game-info__about{
+    font: var(--text-lg-bold);
+}
+
+.game-info__desc{
+    font: var(--text-base);
+    margin-top: 4px;
+}
+
+.game-info__requirement{
+    margin-top: 40px;
+    background-color: var(--bg-light-muted);
+    padding: 16px;
+    border: solid 1px var(--border);
+    border-radius: 1rem;
+}
+
+.game-info__requirement p{
+    font: var(--text-lg-bold);
+}
+
+.game-info__requirement-container{
+    display: flex;
+    margin-top: 4px;
+    gap: 10px;
+}
+
+.game-info__requirement-container p{
+    font: var(--text-md);
+}

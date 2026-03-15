@@ -1,0 +1,22 @@
+{
+  "data": [
+        {
+        "id": 1,
+        "title": "Hideo Kojima pulls out of GDC at the last minute",
+        "image": "/images/s1.webp",
+        "info": "Kojima was set to deliver the first GDC keynote in five years, but announced today that he'll be unable to attend."
+        },
+        {
+        "id": 2,
+        "title": "The call goes out for a 'massive international strike' at Ubisoft: 'We are treated like children who need to be supervised, while our management gets away with lies and breaking the law'",
+        "image": "/images/s2.webp",
+        "info": "Five separate unions in France are ratcheting up the pressure as Ubisoft looks to close studios and cut workers."
+        },
+        {
+        "id": 3,
+        "title": "The next Dead by Daylight chapter will feature character designs selected by the community, and voting is already open",
+        "image": "/images/s3.webp",
+        "info": "Players can select their favorite design from a batch of art concepts."
+        }
+    ]
+}

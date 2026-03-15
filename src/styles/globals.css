@@ -1,0 +1,107 @@
+:root {
+  --bg-dark: oklch(0.15 0 250);
+  --bg-dark-muted: oklch(0.2 0 250);
+  --bg-light: oklch(0.3 0 250);
+  --bg-light-muted: oklch(0.25 0 250);
+
+  --border: oklch(0.4 0 340);
+  --border-muted: oklch(0.3 0 340);
+  
+  --text-dm: oklch(0.93 0 250);
+  --text-subtle-dm: oklch(0.83 0 250);
+  --text-muted-dm: oklch(0.76 0 250);
+
+  --text-lm: oklch(0.15 0 340);
+  --text-muted-lm: oklch(0.4 0 340);
+
+  --highlight: oklch(0.5 0 250);
+
+  --border: oklch(0.5 0 250);
+  --border-muted: oklch(0.4 0 250);
+
+  --primary: oklch(0.76 0.1 250);
+  --primary-hover: oklch(0.84 0.1 250);
+  --secondary: oklch(0.68 0.18 305);
+  --danger: oklch(0.7 0.05 30);
+  
+  --warning: oklch(0.7 0.05 100);
+  --success: oklch(0.7 0.05 160);
+  --info: oklch(0.7 0.05 260);
+
+  --ff: "Inter", sans-serif;
+  --h1: bold 54px/64px var(--ff);
+  --h2: bold 36px/44px var(--ff);
+  --h3: bold 24px/30px var(--ff);
+
+  --links: bold 18px/18px var(--ff);
+  --text-lg: 400 20px/28px var(--ff);
+  --text-lg-bold: 700 20px/28px var(--ff);
+
+  --text-base: 400 16px/24px var(--ff);
+  --text-base-bold: 700 16px/24px var(--ff);
+
+  --text-md: 400 14px/22px var(--ff);
+  --text-md-bold: 700 14px/22px var(--ff);
+
+  --text-sm: 400 12px/18px var(--ff);
+  --text-sm-bold: 700 12px/18px var(--ff);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+}
+
+body {
+  background-color: var(--bg-dark);
+  color: var(--text-dm);
+  font-family: var(--ff);
+}
+
+main{
+  padding: 100px 156px;
+}
+
+button {
+  background-color: inherit;
+  border: none;
+  color: var(--text-dm);
+}
+
+h1 {
+    font: var(--h1);
+}
+
+h2 {
+    font: var(--h2);    
+}   
+
+h3 {            
+    font: var(--h3);
+    }
+
+img{
+    user-select: none;
+}
+
+
+.featured-section {
+  width: 100%;
+  background-color: green;
+  height: 280px;
+  margin-top: 48px;
+}
+
+.media-section {
+  width: 100%;
+  height: 300px;
+  margin: 3rem 0;
+  background-color: purple;
+}

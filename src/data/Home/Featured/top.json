@@ -1,0 +1,103 @@
+{
+  "topSeller": [
+    {
+        "id": 1,
+        "title": "Grand Theft Auto V",
+        "image": "/images/gta5small.png",
+        "price": 39.05
+    },
+    {
+        "id": 2,
+        "title": "Resident Evil Requiem",
+        "image": "/images/rerSmall.jpg",
+        "price": 59.99
+    },
+    {
+        "id": 3,
+        "title": "Elden Ring",
+        "image": "/images/ersmall.jpg",
+        "price": 37.71
+    },
+    {
+        "id": 4,
+        "title": "EA SPORTS FC™ 26",
+        "image": "/images/easmall.avif",
+        "price": 45.71
+    },
+    {
+        "id": 5,
+        "title": "ARC Raiders",
+        "image": "/images/arsmall.jpg",
+        "price": 28.42
+    }
+  ],
+
+  "topFreeToPlay": [
+    {
+        "id": 6,
+        "title": "Counter Strike 2",
+        "image": "/images/cs2small.jpg",
+        "price": 0
+    },
+    {
+        "id": 7,
+        "title": "PUBG: Battlegrounds",
+        "image": "/images/pubgsmall.png",
+        "price": 0
+    }
+    ,
+    {
+        "id": 8,
+        "title": "Dota 2",
+        "image": "/images/dota2small.jpg",
+        "price": 0
+    }
+    ,
+    {
+        "id": 9,
+        "title": "Apex Legends™",
+        "image": "/images/apsmall.jpg",
+        "price": 0
+    }
+    ,
+    {
+        "id": 10,
+        "title": "Overwatch®",
+        "image": "/images/osmall.jpg",
+        "price": 0
+    }
+  ],
+
+  "topReplay": [
+    {
+        "id": 11,
+        "title": "Dota 2",
+        "image": "/images/dota2small.jpg",
+        "price": 0
+    },
+    {
+        "id": 12,
+        "title": "Slay the Spire 2",
+        "image": "/images/sts2small.jpg",
+        "price": 11.89
+    },
+    {
+        "id": 13,
+        "title": "Terraria",
+        "image": "/images/terasmall.jpg",
+        "price": 5.41
+    },
+    {
+        "id": 14,
+        "title": "Balatro",
+        "image": "/images/balasmall.jpg",
+        "price": 7.81
+    },
+    {
+        "id": 15,
+        "title": "Dead Cells",
+        "image": "/images/dcsmall.png",
+        "price": 7.54
+    }
+  ]
+}

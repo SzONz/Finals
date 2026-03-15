@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "title": "Counter Strike 2",
+      "image": "/images/cs2.jpg",
+      "tags": ["FPS", "Shooter", "Multiplayer"],
+      "price": 0
+    },    
+    {
+      "id": 2,
+      "title": "Wuthering Waves",
+      "image": "/images/wuwa.jpg",
+      "tags": ["Action", "RPG", "Open World"],
+      "price": 0
+    },    
+    {
+      "id": 3,
+      "title": "Warframe",
+      "image": "/images/wf.jpg",
+      "tags": ["Action", "RPG", "Looter Shooter"],
+      "price": 0
+    },    
+    {
+      "id": 4,
+      "title": "Dota 2",
+      "image": "/images/dota.webp",
+      "tags": ["Action", "RPG", "Open World"],
+      "price": 0
+    }
+  ]
+}

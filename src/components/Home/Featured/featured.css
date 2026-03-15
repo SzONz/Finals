@@ -1,0 +1,151 @@
+.featured-games{
+    height: auto;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+
+
+.f-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.f-top h3{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.f-top h3 svg {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+    stroke-width: 1;
+    transition: transform 0.25s ease;
+}
+
+.f-top h3:hover svg{
+    transform: translateX(8px);
+}
+
+.f-top button{
+    border: solid 1px var(--border);
+    padding: 8px 15px;
+    font: var(--text-base);
+    border-radius: 0.5rem;
+    transition: background-color 0.25s ease;
+    cursor: pointer;
+}
+
+.f-top button:hover{
+    background-color: var(--bg-light);
+}
+
+.f-container{
+    margin-top: 16px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+}
+
+.f-card{
+    height: 280px;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    position: relative;
+    background-color: var(--bg-dark-muted);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+}
+
+.f-card:hover{
+    transform: translateY(-8px);
+}
+
+.f-image{
+    position: relative;
+    max-height: 119.56px;
+}
+
+.f-card img{
+    width: 100%;
+    height: 50%;
+    max-height: 119.56px;
+    object-fit: cover;
+    position: relative;
+    display: block;
+}
+
+.f-image:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    transparent 60%,
+    rgba(0,0,0,0.7)
+  );
+}
+
+.f-card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 12px;
+    height: 50%
+}
+
+.f-card-up{
+    display: flex;
+    flex-direction: column;
+}
+
+.f-game-tags{
+    margin-top: 8px;
+    display: flex;
+    height: auto;
+    gap: 4px;
+    font: var(--text-sm);
+    color: var(--text-muted-dm);
+    flex-wrap: wrap;
+}
+
+.f-game-tags span{
+    border: solid 1px var(--border-muted);
+    padding: 0px 4px;
+}
+
+.f-card-up p{
+    font: var(--text-base-bold);
+}
+
+.f-card-bot,
+.f-card-up{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.f-card-bot{
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.f-buy{
+    background-color: var(--primary);
+    color: var(--text-lm);
+    font: var(--text-md-bold);
+    border: solid 1px var(--primary);
+    padding: 4px 10px;
+}
+
+.f-bookmark{
+    cursor: pointer;
+}
+
+.f-bookmark svg:hover{
+    fill: var(--text-dm);    
+}
+

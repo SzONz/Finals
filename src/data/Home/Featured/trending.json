@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "title": "Over The Top: WWI",
+      "image": "/images/ott.jpg",
+      "tags": ["Action", "Multiplayer", "World War I"],
+      "price": 9.65
+    },    
+    {
+      "id": 2,
+      "title": "Heart of the Machine",
+      "image": "/images/hom.jpeg",
+      "tags": ["Strategy", "Simulation"],
+      "price": 5.69
+    },    
+    {
+      "id": 3,
+      "title": "Marathon",
+      "image": "/images/mt.jpg",
+      "tags": ["Extraction Shooter", "PVP", "Multiplayer"],
+      "price": 28.12
+    },    
+    {
+      "id": 4,
+      "title": "Poker Night at the Inventory",
+      "image": "/images/pni.avif",
+      "tags": ["Casual", "Card Game", "Cartoon"],
+      "price": 5.40
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+.hero {
+  min-height: 550px;
+  box-sizing: border-box; 
+}
+
+.new-release{
+  height: auto;
+}
+
+.nr-container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;  
+  margin-top: 1.25rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.nr-container > * {
+  flex-shrink: 0;
+}
+
+.hero-slider {
+  flex: 4;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.hero-track {
+  display: flex;
+  height: 100%;
+  transition: transform 0.6s ease;
+}
+
+.hero-slide {
+  min-width: 100%;
+  height: 100%;
+}
+
+.nr-img{
+  width: auto;
+  height: 100%;  
+  overflow: hidden;
+  border-radius: 1rem;
+  position: relative;
+}
+
+.nr-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.nr-img::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.9) 0%, 
+    rgba(0, 0, 0, 0.6) 25%,
+    rgba(0, 0, 0, 0.3) 45%,
+    transparent 70%
+  );
+
+  pointer-events: none;
+  z-index: 1;
+}
+
+.nr-items-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 420px;
+  height: 100%;
+
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  z-index: 2;
+}
+
+.nr-game-logo{
+  max-width: 180px;
+  max-height: 90px;
+}
+
+.nr-status{
+  margin-top: 10px;
+  font: var(--text-base-bold);
+}
+
+.nr-description{
+  margin-top: 5px;
+  font: var(--p);
+}
+
+.nr-card-container{
+  flex: 1;
+  height: 100%;
+  position: relative;
+  padding-left: 16px;
+}
+
+.nr-btns{
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.nr-buy-btn{
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  color: black;
+  font: var(--text-base-bold);
+  padding: 12px 20px;
+  border-radius: 0.75rem;
+  transition: all 0.25s ease;
+}
+
+.nr-buy-btn:hover{
+  background-color: rgb(192, 192, 192);
+}
+
+.nr-icon-btn{
+  background-color: oklch(0.2 0 250 / 0.6);
+  padding: 12px 14px;
+  border-radius: 0.75rem;
+  display: flex;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.nr-icon-btn:hover{
+  background-color: oklch(67.312% 0.00008 271.152 / 0.6);
+}
+
+.nr-icon-btn svg {
+  width: 20px;
+  height: 20px;
+  stroke-width: 1.5;
+}
+
+
+
+.nr-card{
+    width: 100%;
+    height: 76.7px;
+    border-radius: 0.5rem;
+    padding: 10px 0px;
+    display: flex;
+    font: var(--p);
+    cursor: pointer;
+    transition: all 0.25s ease;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    transition: background 0.25s ease, transform 0.25s ease;
+    overflow: hidden;
+}
+
+.nr-card:hover{
+    background:  var(--bg-light-muted);
+}
+
+.nr-card.active {
+  background: var(--bg-light-muted);
+}
+
+.nr-card-progress {
+  position: absolute;
+  border-radius: 0.5rem;
+  inset: 0;
+  background: var(--bg-light);
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: progressFill 5.85s linear forwards;
+  z-index: 1;
+}
+
+.nr-card-img-container,
+.nr-card-text {
+  position: relative;
+  z-index: 1;
+  font: var(--text-md);
+}
+
+@keyframes progressFill {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+.nr-card:not(:first-child) {
+  margin-top: 4px;
+}
+
+.nr-card-img-container{
+    height: 100%;
+    margin: 0 10px;
+}
+
+.nr-card-img-container img{
+    max-width: 37.797px;
+    height: 100%;
+    border-radius: 0.25rem;
+}
+
+.nr-card-text{
+    max-width: calc(100% - 60px);
+    width: auto;
+    overflow-wrap: break-word;
+}
+

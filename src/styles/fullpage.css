@@ -1,0 +1,24 @@
+.library-main{
+    padding-top: 70px;
+    display: flex;
+}
+
+.cart-main{
+    padding: 70px 40px 0 40px;
+}
+
+.game-top{
+  display:flex;
+  gap:40px;
+  align-items:flex-start;
+}
+
+.game-content{
+  flex:1;
+}
+
+.game-sidebar{
+  width:272px;
+  position:sticky;
+  top:120px;
+}

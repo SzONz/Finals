@@ -1,0 +1,305 @@
+.filter-games{
+    display: flex;
+    margin-top: 80px;
+}
+
+.filter{
+    width: 25%;
+    background-color: var(--bg-light-muted);
+    border: solid 1px var(--border-muted);
+    border-radius: 1rem;
+    height: fit-content;
+    overflow:hidden;
+}
+
+.filter h3{
+    margin: 20px 20px;
+    font: var(--text-lg-bold);
+}
+
+.filter-item{
+  border-top:1px solid var(--border);
+}
+
+.filter-dropdown{
+  width:100%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background:none;
+  border:none;
+  padding:16px;
+  font-size:16px;
+  cursor:pointer;
+}
+
+.chevron{
+  transition:transform .25s ease;
+}
+
+.chevron.rotate{
+  transform:rotate(180deg);
+}
+
+.custom-checkbox{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  cursor:pointer;
+  font: var(--text-md);
+  padding:6px 0;
+}
+
+.custom-checkbox input{
+  display:none;
+}
+
+.checkbox-box{
+  width:22px;
+  height:22px;
+  border-radius:6px;
+  border: 2px solid var(--border);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  transition:all .2s ease;
+}
+
+.checkbox-icon{
+  width:16px;
+  height:16px;
+  opacity:0;
+  color:white;
+}
+
+.custom-checkbox input:checked + .checkbox-box{
+  background:#2ea3ff;
+  border-color:#2ea3ff;
+}
+
+.custom-checkbox input:checked + .checkbox-box .checkbox-icon{
+  opacity:1;
+}
+
+.filter-content{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  padding:0 16px 16px 16px;
+}
+
+.filter-content label{
+  display:flex;
+  gap:10px;
+  cursor:pointer;
+}
+
+.filter-dropdown:hover{
+    background-color: var(--bg-light);
+}
+
+.filter-container{
+    width: 75%;
+}
+
+.search-games{
+    background-color: var(--bg-light-muted);
+    color: var(--text-dm);
+    padding: 10px 20px;
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 50%;
+}
+
+.search-games input{
+    background-color: var(--bg-light-muted);
+    color: var(--text-dm);
+    outline: line;
+    border: none;
+    width: 100%;
+}
+
+.search-games input:focus{
+    border: none;
+    outline: none;
+}
+
+.selector{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.selector p{
+    color: var(--text-muted-dm);
+    font: var(--text-md);
+}
+
+.dropdown-selector{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: var(--text-base);
+    margin-left: 10px;
+    gap: 4px;
+}
+
+.sort-dropdown{
+  position: relative;
+}
+
+.dropdown-selector{
+  display:flex;
+  align-items:center;
+  gap:6px;
+  background:none;
+  border:none;
+  cursor:pointer;
+  font: var(--text-base);
+}
+
+.rotate{
+  transform: rotate(180deg);
+  transition: transform .25s ease;
+}
+
+.sort-options{
+  position:absolute;
+  top:35px;
+  left:0;
+  background:var(--bg-light-muted);
+  border:1px solid var(--border-muted);
+  border-radius:8px;
+  display:flex;
+  flex-direction:column;
+  min-width:180px;
+  z-index:5;
+  overflow: hidden;
+}
+
+.sort-options button{
+  background:none;
+  border:none;
+  padding:10px 14px;
+  text-align:left;
+  cursor:pointer;
+  font: var(--text-md);
+}
+
+.sort-options button:hover{
+  background:var(--bg-light);
+}
+
+.filter-card-container{
+    margin: 20px 20px 0px 0px;
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px;
+}
+
+
+.filter-games-card{
+    cursor: pointer;
+    width: 147.125px;
+
+    border-radius: 0.5rem;
+    overflow: hidden;
+    transition: transform .25s ease, box-shadow .25s ease;
+}
+
+.filter-games-card:hover{
+    transform: translateY(-6px);
+}
+
+.filter-image{
+    height: 200px;
+    max-height: 200px;
+    max-width: 147.125px;
+}
+
+.filter-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 0.5rem;
+}
+
+.filter-card-items{
+    margin-top: 8px;
+    width: 100%;
+}
+
+.filter-title{
+    font: var(--text-md-bold);
+}
+
+.filter-price{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 10px;
+}
+
+.filter-sale{
+    background:var(--primary);
+    color:var(--text-dm);
+    font-weight:700;
+    padding:6px 10px;
+    font-size:14px;
+}
+
+.filter-price-values{
+    display:flex;
+    flex-direction:column;
+}
+
+.filter-original{
+    text-decoration:line-through;
+    color:var(--text-muted-dm);
+    font: var(--text-sm);
+}
+
+.filter-final{
+    color:var(--text-dm);
+    font: var(--text-md);
+}
+
+.filter-platform{
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.filter-platform svg{
+    width: 15px;
+    height: 15px;
+    color: var(--text-muted-dm);
+}
+
+.pagination{
+  display:flex;
+  gap:10px;
+  margin-top:20px;
+  justify-content:center;
+}
+
+.pagination button{
+  padding:6px 12px;
+  border:none;
+  background:#222;
+  color:white;
+  cursor:pointer;
+}
+
+.pagination button.active-page{
+  background:#00bfff;
+}
+

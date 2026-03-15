@@ -1,0 +1,72 @@
+{
+  "lop": {
+    "title": "Lies Of P",
+    "banner": "/images/lopbanner.png",
+    "gallery": ["/images/lop.jpg", "/images/LiesOfP/lopscene1.avif", "/images/LiesOfP/lopscene2.png", "/images/LiesOfP/lopscene3.jpg", "/images/LiesOfP/lopscene4.avif"],
+    "hero": "/images/lop.jpg",
+    "developer": "NEOWIZ",
+    "publisher": "NEOWIZ",
+    "releaseDate": "18 Sep, 2023",
+    "deadline": "Today",
+    "price": {
+      "original": 40.13,
+      "discount": 50,
+      "final": 20.06
+    },
+    "shortDesc": "Lies of P is a thrilling soulslike that takes the story of Pinocchio, turns it on its head, and sets it against the darkly elegant backdrop of the Belle Epoque era.",
+    "genre": ["Action", "Dark Fantasy", "Souls-like"],
+    "feature": ["Singleplayer"],
+    "longDesc": "You are a puppet created by Geppetto who’s caught in a web of lies with unimaginable monsters and untrustworthy figures standing between you and the events that have befallen the world of Lies of P. You are awakened by a mysterious voice that guides you through the plagued city of Krat - a once lively place that has been poisoned by madness and bloodlust. In our soulslike, you must adapt yourself and your weapons to face untold horrors, untangle the unfathomable secrets of the city's elites and choose whether to confront predicaments with the truth or weave lies to overcome them on the journey to find yourself.",
+    "systemRequirements": {
+      "minimum": {
+        "os": "Windows 10 64-bit",
+        "processor": "AMD Ryzen 3 1200 / Intel Core i3-6300",
+        "memory": "8 GB RAM",
+        "graphics": "AMD Radeon RX 560 4GB / NVIDIA GeForce GTX 960 4GB",
+        "directx": "Version 12",
+        "storage": "50 GB available space"
+      },
+      "recommended": {
+        "os": "Windows 10 64-bit",
+        "processor": "AMD Ryzen 3 1200 / Intel Core i3-6300",
+        "memory": "16 GB RAM",
+        "graphics": "AMD Radeon RX 6500 XT 4GB / NVIDIA GeForce GTX 1660 6GB",
+        "directx": "Version 12",
+        "storage": "50 GB available space"
+      }
+    }
+  },
+
+  "rer": {
+    "title": "Resident Evil Requiem",
+    "banner": "/images/rerbanner.png",
+    "gallery": ["/images/rer.png", "/images/ResidentEvilRequiem/rerscene1.png", "/images/ResidentEvilRequiem/rerscene2.png", "/images/ResidentEvilRequiem/rerscene3.webp", "/images/ResidentEvilRequiem/rerscene4.webp"],
+    "hero": "/images/rer.png",
+    "developer": "CAPCOM Co., Ltd.",
+    "publisher": "CAPCOM Co., Ltd.",
+    "releaseDate": "27 Feb, 2026",
+    "price": 59.99,
+    "shortDesc": "Requiem for the dead. Nightmare for the living. Prepare to escape death in a heart-stopping experience that will chill you to your core.",
+    "genre": ["Action", "Zombie", "Horror"],
+    "feature": ["Singleplayer"],
+    "longDesc": "A new era of survival horror arrives with Resident Evil Requiem, the latest and most immersive entry yet in the iconic Resident Evil series. Experience terrifying survival horror with FBI analyst Grace Ashcroft, and dive into pulse-pounding action with legendary agent Leon S. Kennedy. Both of their journeys and unique gameplay styles intertwine into a heart-stopping, emotional experience that will chill you to your core.",
+    "systemRequirements": {
+      "minimum": {
+        "note": "Requires a 64-bit processor and operating system",
+        "os": "Windows 11 (64bit required)",
+        "processor": "Intel Core i5-8500 / AMD Ryzen 5 3500",
+        "memory": "16 GB RAM",
+        "graphics": "GeForce GTX 1660 6GB / Radeon RX 5500 XT 8GB",
+        "directx": "Version 12"
+      },
+      "recommended": {
+        "note": "Requires a 64-bit processor and operating system",
+        "os": "Windows 11 (64bit required)",
+        "processor": "Intel Core i7-8700 / AMD Ryzen 5 5500",
+        "memory": "16 GB RAM",
+        "graphics": "GeForce RTX 2060 Super 8GB / Radeon RX 6600 8GB",
+        "directx": "Version 12"
+      }
+    }
+  }
+}

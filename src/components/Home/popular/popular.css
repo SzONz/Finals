@@ -1,0 +1,88 @@
+.popular{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+}
+
+.popular > *{
+    flex: 1;
+    padding: 0px 16px;
+}
+
+.top-seller{
+    border-right: solid 1px var(--border);
+}
+
+.top-most-played{
+    border-left: solid 1px var(--border);
+}
+
+.popular > * h3{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.popular > * h3 svg {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+    stroke-width: 1;
+    transition: transform 0.25s ease;
+}
+
+.popular > * h3:hover svg{
+    transform: translateX(8px);
+}
+
+.top-f2p{
+    border-left: 1px solid rgba(255,255,255,0.1);
+    border-right: 1px solid rgba(255,255,255,0.1);
+}
+
+.seller-card{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.p-item{
+    display: flex;
+    cursor: pointer;
+    transition: background 0.25s ease;
+    padding: 16px 12px;
+    border-radius: 0.5rem;
+}
+
+.p-item:hover{
+    background:  var(--bg-light-muted);
+}
+
+.p-image{
+    width: 48px;
+    height: 64px;
+    overflow: hidden;
+    border-radius: 0.2rem;
+}
+
+.p-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.p-info{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.p-title{
+    font: var(--text-base-bold);
+}
+
+.p-price{
+    margin-top: 8px;
+    font: var(--text-md);
+    color: var(--text-muted-dm);
+}

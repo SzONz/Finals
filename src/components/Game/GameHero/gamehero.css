@@ -1,0 +1,319 @@
+.game-hero{
+    width: fit-content;
+}
+
+.game-hero__container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    height: fit-content;
+}
+
+.game-hero__media{
+    width: 100%;
+    overflow: hidden;
+    margin-right: auto;
+    height: fit-content;
+    position: relative;
+}
+
+.game-hero__main-image{
+    width: 100%;
+}
+
+.game-hero__main-image img{
+    width: 100%;
+}
+
+.game-hero__info{
+    overflow: hidden;
+    height: fit-content;
+    align-self: flex-start;
+    position: sticky;
+    right: 0;
+    margin-top: 20px;
+    width: 272.398px;
+}
+
+.game-hero__banner{
+    width: 100%;
+}
+
+.game-hero__banner img{
+    width: 100%;
+}
+
+.game-hero__meta{
+    font: var(--text-md);
+    color: var(--text-muted-dm);
+    margin-top: 16px;
+}
+
+.game-hero__meta p{
+    display: flex;
+    justify-content: space-between;
+}
+
+.game-hero__meta span{
+    color: var(--primary);
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.game-hero__meta span:hover{
+    color: var(--text-dm);
+}
+
+.game-hero__release{
+    margin: 8px 0;
+}
+
+.game-hero__release span{
+    color: var(--text-dm);
+    cursor: default;
+}
+
+.game-hero__price{
+    display: flex;
+    margin-top: 16px;
+    align-items: center;
+    justify-content: end;
+    gap: 8px;
+    width: 100%;
+}
+
+.game-hero__sale{
+    color: var(--text-lm);
+    background-color: var(--primary);
+    font: var(--text-sm-bold);
+    padding: 0 8px;
+    border-radius: 999px;
+}
+
+.game-hero__original{
+    font: var(--text-sm);
+    color: var(--text-muted-dm);
+    text-decoration: line-through;
+}
+
+.game-hero__final{
+    font: var(--text-base-bold);
+}
+
+.game-hero__deadline{
+    font: var(--text-md);
+    display: flex;
+    justify-content: end;
+    margin-top: 4px;
+    color: var(--text-muted-dm);
+}
+
+.game-hero__actions{
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.game-hero__action-upper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.game-hero__buy{
+    background-color: var(--primary);
+    color: var(--text-lm);
+    font: var(--text-base-bold);
+    padding: 10px 0px;
+    flex: 1;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.game-hero__buy:hover{
+    background-color: var(--primary-hover);
+}
+
+.game-hero__cart{
+    background-color: var(--bg-light-muted);
+    padding: 10px 20px;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.game-hero__cart svg{
+    stroke-width: 1.5;
+    width: 25px;
+}
+
+.game-hero__action-bottom{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.game-hero__wishlist,
+.game-hero__gift{
+    flex: 1;
+    background-color: var(--bg-light-muted);
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.game-hero__wishlist:hover,
+.game-hero__gift:hover,
+.game-hero__cart:hover{
+    background-color: var(--bg-light);
+}
+
+.game-hero__gallery{
+  margin-top:20px;
+  position:relative;
+}
+
+.game-hero__gallery-slider{
+  position:relative;
+  width:100%;
+}
+
+.game-hero__gallery-viewport{
+  overflow:hidden;
+  width:100%;
+}
+
+.game-hero__gallery-track{
+  display:flex;
+  transition:transform .45s cubic-bezier(.25,.8,.25,1);
+}
+
+.game-hero__gallery-slide{
+  min-width:100%;
+  display:flex;
+  justify-content:center;
+  gap:22px;
+}
+
+.game-hero__gallery-slide img{
+  width:110px;
+  aspect-ratio:16 / 9;
+  object-fit:cover;
+
+  border-radius:10px;
+  cursor:pointer;
+
+  opacity:.65;
+  transition:all .25s ease;
+}
+
+.game-hero__gallery-slide img:hover{
+  opacity:1;
+}
+
+.game-hero__gallery-slide img:hover{
+  opacity:1;
+}
+
+.game-hero__gallery-slide img.active{
+  opacity:1;
+  border:2px solid white;
+}
+
+.game-hero__gallery-arrow{
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%);
+  width:44px;
+  height:44px;
+  border-radius:50%;
+  background:rgba(255,255,255,0.08);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  cursor:pointer;
+  z-index:2;
+}
+
+.game-hero__gallery-arrow-left{
+  left:0;
+}
+
+.game-hero__gallery-arrow-right{
+  right:0;
+}
+
+.game-hero__gallery-arrow:hover{
+  background:rgba(255,255,255,0.18);
+}
+
+.game-hero__gallery:hover .game-hero__gallery-arrow{
+  opacity:1;
+}
+
+.game-hero__gallery-arrow{
+  opacity:0;
+  transition:opacity .25s;
+}
+
+.checkout-overlay{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.7);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    z-index:1000;
+}
+
+.checkout-modal{
+    background:#1b1b1b;
+    padding:30px;
+    border-radius:10px;
+    width:350px;
+    color:white;
+}
+
+.checkout-form input{
+    width:100%;
+    margin:8px 0;
+    padding:10px;
+    border:none;
+    border-radius:6px;
+}
+
+.checkout-row{
+    display:flex;
+    gap:10px;
+}
+
+.checkout-pay{
+    width:100%;
+    padding:10px;
+    background:#2ecc71;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+    margin-top:10px;
+}
+
+.checkout-close{
+    width:100%;
+    padding:10px;
+    background:#444;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+    margin-top:8px;
+}

@@ -1,0 +1,78 @@
+:root {
+  --bg-dark: oklch(0.18 0 250);
+  --bg-dark-mute: oklch(0.2 0 250);
+  --bg-light: oklch(0.3 0 250);
+  --bg-light-mute: oklch(0.25 0 250);
+
+  --text: oklch(0.96 0 250);
+  --text-muted: oklch(0.76 0 250);
+
+  --highlight: oklch(0.5 0 250);
+
+  --border: oklch(0.4 0 250);
+  --border-muted: oklch(0.3 0 250);
+
+  --primary: oklch(0.76 0.1 250);
+  --secondary: oklch(0.68 0.18 305);
+  --danger: oklch(0.7 0.05 30);
+  
+  --warning: oklch(0.7 0.05 100);
+  --success: oklch(0.7 0.05 160);
+  --info: oklch(0.7 0.05 260);
+
+  --ff: "Inter", sans-serif;
+  --h1: bold 54px/64px var(--ff);
+  --h2: bold 36px/44px var(--ff);
+  --h3: bold 24px/30px var(--ff);
+
+  --links: bold 18px/18px var(--ff);
+  --p: 400 14px/22px var(--ff);
+  --p-bold: 700 15px/23px var(--ff);
+  --p-small: 400 12px/20px var(--ff)
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--bg-dark);
+  color: var(--text);
+  font-family: var(--ff);
+  color: var(--text);
+}
+
+main{
+  padding: 100px 156px;
+}
+
+button {
+  background-color: inherit;
+  border: none;
+  color: var(--text);
+}
+
+h1 {
+    font: var(--h1);
+}
+
+h2 {
+    font: var(--h2);    
+}   
+
+h3 {            
+    font: var(--h3);
+    }
+
+img{
+    user-select: none;
+}

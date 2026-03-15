@@ -1,0 +1,59 @@
+{
+  "data": [
+    {
+      "id": "rer",
+      "title": "Resident Evil Requiem",
+      "description": "Requiem for the dead. Nightmare for the living. Prepare to escape death in a heart-stopping experience that will chill you to your core.",
+      "image": "/images/rer.avif",
+      "imageSmall": "/images/rerSmall.jpg",
+      "logo": "/images/rerlogo.png",
+      "price": 59.99,
+      "status": "Available Now",
+      "isReleased": true
+    },
+    {
+      "id": 2,
+      "title": "Death Stranding 2: On the Beach",
+      "description": "Embark on an inspiring mission of human connection beyond the UCA. Sam and his companions set out on another journey to save humanity from extinction. Join them as they traverse a world beset by otherworldly enemies and new obstacles.",
+      "image": "/images/ds2.avif" ,
+      "imageSmall": "/images/ds2Small.jpg",
+      "logo": "/images/ds2logo.png",
+      "price": 69.99,
+      "status": "March 19, 2016",
+      "isReleased": false
+    },
+    {
+      "id": 3,
+      "title": "Forza Horizon 6",
+      "description": "Discover the breathtaking landscapes of Japan in over 550 real-world cars and become a racing Legend in Forza Horizon's biggest open world driving adventure yet.",
+      "image": "/images/fh.jpg",
+      "imageSmall": "/images/fhSmall.webp",
+      "logo": "/images/fhlogo.png",
+      "price": 69.99,
+      "status": "May 19, 2026",
+      "isReleased": false
+    },
+    {
+      "id": 4,
+      "title": "LEGO Batman: Legacy of the Dark Knight",
+      "description": "Rise as the Dark Knight and experience the essential Batman story in a bold, action-packed adventure with hard-hitting combat, an open-world Gotham City, and the signature LEGO charm that fans know and love.",
+      "image": "/images/lb.jpg",
+      "imageSmall": "/images/lbSmall.webp",
+      "logo": "/images/lblogo.png",
+      "price": 57.21,
+      "status": "May 29, 2026",
+      "isReleased": false
+    },
+    {
+      "id": 5,
+      "title": "Arknights: Endfield",
+      "description": "Arknights: Endfield is an open-world anime-inspired cross-platform action Role-Playing Game. The RPG features large open worlds, sci-fi themed Anime aesthetics, fast action combat, interactable environments, PvE systems, and much more.",
+      "image": "/images/ae.avif",
+      "imageSmall": "/images/aeSmall.webp",
+      "logo": "/images/aelogo.png",
+      "price": 0,
+      "status": "Available Now",
+      "isReleased": true
+    }
+  ]
+}
